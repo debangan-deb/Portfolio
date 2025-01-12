@@ -31,7 +31,7 @@ h1{
     padding: 10px;
     margin: 50px 70px;
     font-family: "Cormorant Garamond", serif;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 20pt;
 }
 .intro{
@@ -43,6 +43,7 @@ h1{
     margin: 100px 0 100px 300px;
 }
 .carousel img{
+    border-radius: 20px;
     height:250px;
 }
 .carousel-inner{
@@ -63,6 +64,12 @@ h1{
 }
 .cards{
     text-align: center;
+}
+.cards img{
+    border-radius: 6px;
+}
+.list-group{
+    border-radius: 6px;
 }
 .card-body li{
    color: black;
@@ -92,18 +99,19 @@ footer{
 }
 @media(max-width:600px){
     h1{
-     font-size: 25px;
+     font-size: 35px;
      margin:40px 40px 10px 40px;
     }
     .my-info p{
-        width:70%;
+        width:80%;
         height: fit-content;
         font-size: 22px;
+        font-weight: 800;
         margin-left: 25px;
     }
     .dp{
-        height: 90px;
-        width: 90px;
+        height: 130px;
+        width: 130px;
         margin:100px 0;
         margin-right:30px;
     }
