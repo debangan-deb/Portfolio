@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 80px;
+    width: 50%;
+    margin: 100px;
+    margin-bottom: 0;
+}
+.dp{
+    border-radius: 50%;
+    height: 410px;
+    width: 410px;
+    margin: 100px;
+}
+.my-info{
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    display: flex;
+}
+.my-info p{
+    border:2px solid white;
+    border-radius: 30px; 
+    text-align: center;
+    height:60px;
+    width: 350px;
+    padding: 10px;
+    margin: 50px 70px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 20pt;
+}
+.intro{
+    border-bottom: 2px dashed white;
+}
+
+.skills{
+    text-align: center;
+    margin: 100px 0 100px 300px;
+}
+.carousel img{
+    height:250px;
+}
+.carousel-inner{
+    padding-right:260px;
+    padding-bottom: 100px;
+    border-bottom: 2px dashed white;
+}
+.experience{
+    text-align: center;
+    margin-left:300px;
+    margin-bottom: 100px;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px dashed white;
+    padding-bottom: 100px;
+}
+.cards{
+    text-align: center;
+}
+.card-body li{
+   color: black;
+}
+.card-button svg{
+   margin-left: 10px;
+}
+.card-body svg{
+    margin-left: 10px;
+}
+.project{
+    text-align: center;
+    margin-left:300px;
+    margin-bottom: 100px;
+}
+.bd-example{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px dashed white;
+    padding-bottom: 100px;
+}
+.card-body{
+   text-align: center;
+}
+footer{
+    margin-top:100px;
+}
+@media(max-width:600px){
+    h1{
+     font-size: 25px;
+     margin:40px 40px 10px 40px;
+    }
+    .my-info p{
+        width:70%;
+        height: fit-content;
+        font-size: 22px;
+        margin-left: 25px;
+    }
+    .dp{
+        height: 90px;
+        width: 90px;
+        margin:100px 0;
+        margin-right:30px;
+    }
+    .skills{
+        margin:50px 100px;
+    }
+    .carousel img{
+        height:150px;
+        margin-left: 70px;
+    }
+    .experience{
+        margin-left:100px;
+    }
+    .project{
+        margin-left: 100px;
+    }
+    .cards{
+        width:10rem !important;
+    }
+    .card{
+        width:14rem !important;
+    }
+    footer{
+        font-size: smaller;
+    }
+}
