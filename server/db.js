@@ -4,17 +4,21 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT || 4000,  
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
+  ssl: {
+    rejectUnauthorized: true,
+  }
 });
 
 db.connect((err) => {
   if (err) {
-    console.error('MySQL connection failed:', err);
+    console.error('MySQL connection failed:', err.message);
   } else {
-    console.log('Connected to MySQL database');
+    console.log('Connected to MySQL (TiDB Cloud) database');
   }
 });
 
