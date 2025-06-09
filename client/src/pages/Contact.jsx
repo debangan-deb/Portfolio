@@ -22,7 +22,7 @@ const Contact = () => {
     setError("");
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("https://portfolio-backend-yj7v.onrender.com/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
