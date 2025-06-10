@@ -1,25 +1,22 @@
-import mysql from 'mysql2';
+import mysql from 'mysql2/promise';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-const db = mysql.createConnection({
+const db = mysql.createPool({
   host: process.env.DB_HOST,
-  port: process.env.DB_PORT || 4000,  
+  port: parseInt(process.env.DB_PORT, 10) || 3306,
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
   ssl: {
     rejectUnauthorized: false,
-  }
+  },
+  waitForConnections: true,
+  connectionLimit: 5,
+  queueLimit: 0,
 });
 
-db.connect((err) => {
-  if (err) {
-    console.error('MySQL connection failed:', err.message);
-  } else {
-    console.log('Connected to MySQL (TiDB Cloud) database');
-  }
-});
+console.log('MySQL connection pool created');
 
 export default db;
