@@ -117,7 +117,7 @@ const Contact = () => {
         </form>
 
         <div
-          className="position-fixed bottom-0 end-0 p-3"
+          className="position-fixed bottom-0 end-0 p-3 d-flex align-items-center"
         >
           <Toast
             bg="success"
@@ -127,7 +127,7 @@ const Contact = () => {
             autohide
           >
             <Toast.Header closeButton>
-              <strong className="text-black">Thank You!</strong>
+              <strong className="text-black">  Thank You!</strong>
             </Toast.Header>
             <Toast.Body >
               Your message was sent successfully!
