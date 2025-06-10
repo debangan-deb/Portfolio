@@ -17,6 +17,18 @@ const Navbar = () => {
           <img
             src="/images/Photo.jpg"
             alt="Debangan"
+            className="d-sm-none"
+            style={{
+              height: "55px",
+              width: "55px",
+              objectFit: "cover",
+              marginRight: "10px",
+            }}
+          />
+          <img
+            src="/images/Photo.jpg"
+            alt="Debangan"
+            className="d-none d-sm-block"
             style={{
               height: "80px",
               width: "80px",
@@ -24,15 +36,29 @@ const Navbar = () => {
               marginRight: "10px",
             }}
           />
-          <h1
-            className=" fw-bold"
-            style={{
-              fontSize: "1.5rem",
-              color: "#e6edf3",
-            }}
-          >
-            DEBANGAN
-          </h1>
+          <>
+
+            <h1
+              className="fw-bold  d-md-none "
+              style={{
+                fontSize: "1rem",
+                color: "white",
+              }}
+            >
+              DEBANGAN
+            </h1>
+
+            <h1
+              className="fw-bold d-none d-md-block "
+              style={{
+                fontSize: "1.5rem",
+                color: "white",
+              }}
+            >
+              DEBANGAN
+            </h1>
+          </>
+
         </div>
 
 

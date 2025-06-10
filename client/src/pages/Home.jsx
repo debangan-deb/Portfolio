@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
   return (
     <section className="my-5 py-5">
-      <div className="text-center my-sm-4">
-        <h1 className="display-4 fw-bold m-3">
+      <div className="text-center my-5">
+        <h1 className="fw-bold m-3">
           Hi, I'm <span className="text-primary">Debangan Deb</span>
         </h1>
         <p className="lead text-info mb-4">Fresher</p>
