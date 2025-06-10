@@ -19,8 +19,8 @@ const Navbar = () => {
             alt="Debangan"
             className="d-sm-none"
             style={{
-              height: "55px",
-              width: "55px",
+              height: "60px",
+              width: "60px",
               objectFit: "cover",
               marginRight: "10px",
             }}
@@ -41,7 +41,7 @@ const Navbar = () => {
             <h1
               className="fw-bold  d-md-none "
               style={{
-                fontSize: "1rem",
+                fontSize: "1.1rem",
                 color: "white",
               }}
             >
