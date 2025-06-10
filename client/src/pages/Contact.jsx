@@ -127,7 +127,7 @@ const Contact = () => {
             autohide
           >
             <Toast.Header closeButton>
-              <strong className="text-black">  Thank You!</strong>
+              <strong className="text-black px-2">Thank You!</strong>
             </Toast.Header>
             <Toast.Body >
               Your message was sent successfully!
