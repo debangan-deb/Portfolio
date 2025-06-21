@@ -29,6 +29,12 @@ const Experience = () => {
             </li>
           </ul>
         </div>
+        <a
+          href="https://www.dropbox.com/scl/fi/bmrbjpat3c08puisqv5je/Cognifyz-Technologies.pdf?rlkey=zykop8234iwinco1hkol4q5c6&st=wypp06ac&dl=0"
+          className="btn btn-primary text-white mb-3"
+        >
+          Certificate →
+        </a>
       </div>
     </section>
   );

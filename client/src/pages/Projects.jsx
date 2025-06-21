@@ -9,6 +9,13 @@ const Projects = () => {
         "A web app that detects fake reviews on Amazon products to help customers avoid deceptive feedback and make informed buying decisions",
       image: "/images/Project_1.png",
       link: "https://github.com/debangan-deb/Fake-Amazon-Product-Review-Detection",
+    },
+     {
+      title: "Mini E-Commerce Website",
+      description:
+        "ShopNext is a simple full-stack shopping website featuring category-based product browsing, user authentication, cart and checkout with payment options, and customer support integration.",
+      image: "/images/Project_2.png",
+      link: "https://github.com/debangan-deb/FUTURE_FS_02",
     }
   ];
 
@@ -26,7 +33,7 @@ const Projects = () => {
                 className="card border-0 "
                 style={{
                   backgroundColor: "#161b22",
-                  // marginBottom : "  px",  -> add if adding more projects for spacing
+                  marginBottom : "50px",  
                 }}
               >
                 <img
@@ -52,7 +59,7 @@ const Projects = () => {
                     href={proj.link}
                     className="btn btn-primary text-white"
                   >
-                    Live Demo →
+                    View →
                   </a>
                 </div>
               </div>
