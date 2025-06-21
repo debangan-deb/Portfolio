@@ -7,25 +7,33 @@ const Experience = () => {
         <h2 className=" mb-3 border-bottom border-primary text-primary d-inline-block">
           Experience
         </h2>
-
+        <div className="p-3">
+          <h3 className="fs-5 ">Full Stack Developer Intern</h3>
+          <p className="text-info">Future Interns · 1 June 2025 – 30 June 2025</p>
+          <ul>
+            <li className=" mb-3">
+              Built portfolio site & mini e-commerce app using React, Node.js, MySQL & Bootstrap.
+            </li>
+            <li className=" mb-4">
+              Implemented contact form with email alerts & full user auth with CRUD functionality.
+            </li>
+          </ul>
+          <a
+            href="https://www.dropbox.com/scl/fi/83ytiyli74wygjx5mfj2s/Future-Internss.pdf?rlkey=yly2tcnwofgk1ge79tiux1rkt&st=uvc6fsss&dl=0"
+            className="btn btn-primary text-white mb-3"
+          >
+            Certificate →
+          </a>
+        </div>
         <div className="p-3">
           <h3 className="fs-5 ">Full Stack Developer Intern</h3>
           <p className="text-info">Cognifyz Technologies · 14 May 2025 – 14 June 2025</p>
           <ul>
             <li className=" mb-3">
-              Designed responsive web pages using HTML, CSS, JavaScript, and Bootstrap.
+              Built responsive UIs and dynamic pages using HTML, CSS, JS & Bootstrap.
             </li>
             <li className=" mb-3">
-              Set up Node.js servers with Express.js and implemented server-side rendering (EJS).
-            </li>
-            <li className=" mb-3">
-              Built RESTful APIs to handle CRUD operations and connected them to dynamic frontend interfaces.
-            </li>
-            <li className=" mb-3">
-              Applied advanced form validation, client-side routing, and dynamic DOM manipulation for a seamless user experience.
-            </li>
-            <li className=" mb-3">
-              Integrated MySQL for secure data storage and implemented user authentication with authorization controls.
+              Implemented MySQL integration with user auth and full CRUD functionality.
             </li>
           </ul>
         </div>

@@ -15,7 +15,7 @@ const Projects = () => {
       description:
         "ShopNext is a simple full-stack shopping website featuring category-based product browsing, user authentication, cart and checkout with payment options, and customer support integration.",
       image: "/images/Project_2.png",
-      link: "https://github.com/debangan-deb/FUTURE_FS_02",
+      link: "https://github.com/debangan-deb/Mini-E-Commerce-Website",
     }
   ];
 
