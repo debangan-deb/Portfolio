@@ -22,7 +22,7 @@ const Education = () => {
 
         <div className="mb-4 p-3 pb-0 mx-auto rounded border text-center" style = {{maxWidth:"500px", width:"70%"}}>
           <h3 className="fs-5 text-light">Higher Secondary (Class XII) - Science</h3>
-          <p className="text-info mb-2">Shrimanta Shankar Academy · April 2019 – Mar 2020</p>
+          <p className="text-info mb-2">Shrimanta Shankar Academy · April 2020 – Mar 2021</p>
           <p>Percentage : 88.16%</p>
         </div>
 
